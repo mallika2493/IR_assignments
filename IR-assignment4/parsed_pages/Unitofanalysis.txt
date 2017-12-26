@@ -1,0 +1,7 @@
+unit of analysis - wikipedia
+the unit of analysis is the major entity that is being analyzed in a study it is the  what  or  who  that is being studied in social science research typical units of analysis include individuals  most common  groups social organizations and social artifacts
+the literature of international relations provides a good example of units of analysis in  man the state and war  kenneth n waltz creates a tripartite analysis with three different units of analysis  the man  individual  the state  a group  and the international system  the system in which groups interact 
+this is not to be confused with the unit of observation which is the unit described by one s data  neighborhoods using the us census individuals using surveys etc  for example a study may have a unit of observation at the individual level but may have the unit of analysis at the neighborhood level drawing conclusions on neighborhood characteristics from data collected from individuals
+see also
+references
+external links

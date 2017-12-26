@@ -1,0 +1,10 @@
+malthusian growth model - wikipedia
+a malthusian growth model sometimes called a simple exponential growth model is essentially exponential growth based on a constant rate the model is named after thomas robert malthus who wrote an essay on the principle of population  1798  one of the earliest and most influential books on population
+malthusian models have the following form 
+where
+this model is often referred to as the exponential law it is widely regarded in the field of population ecology as the first principle of population dynamics with malthus as the founder the exponential law is therefore also sometimes referred to as the malthusian law
+malthus wrote that all life forms including humans have a propensity to exponential population growth when resources are abundant but that actual growth is limited by available resources 
+a model of population growth bounded by resource limitations was developed by pierre francois verhulst in 1838 after he had read malthus  essay verhulst named the model a logistic function
+see also
+references
+external links

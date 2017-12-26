@@ -1,0 +1,14 @@
+population momentum - wikipedia
+population momentum refers to population growth at the national level that would occur even if levels of childbearing immediately declined to replacement level for countries with above-replacement fertility  greater than 2.1 children per woman  population momentum represents natural increase to the population for below-replacement countries momentum corresponds to continued population decline
+momentum occurs because older cohorts differ in absolute size from those cohorts currently bearing children which impacts the immediate birth and death rates in the population that determine the intrinsic rate of growth formal demographers refer to population momentum as the size of the resulting stationary-equivalent population relative to the current size of the population population momentum has implications for population policy for a number of reasons
+1 with respect to high-fertility countries in the developing world population momentum warns that these countries will continue to grow despite large and rapid declines in fertility
+2 with respect to lowest-low fertility countries in europe momentum implies that these countries may experience population decline even if they bring their fertility levels up to replacement in fact population momentum can become negative if fertility rates are under replacement for long enough  in the coming decades for example some eastern european countries would show population shrinkage even if their birth rates recovered to replacement level
+3 population momentum shows that replacement level fertility is a long-term concept rather than an indication of current population growth rates depending on the extant age structure a fertility rate of two children per woman may correspond to short-term growth or decline
+
+
+calculation
+to calculate population momentum for population a a theoretical population is constructed in which the birth rate for population a immediately becomes replacement level under such conditions the population will eventually stabilize into a stationary population with no year-to-year changes in age-specific rates or in total population the population momentum is calculated by dividing this final total population number by the starting population 
+countries with a population momentum
+the following list are countries that maintain growth despite a fertility rate of under 2.1 however some of these countries also maintain growth because of immigration
+see also
+references

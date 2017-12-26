@@ -1,0 +1,106 @@
+population ecology - wikipedia
+population ecology or autecology is a sub-field of ecology that deals with the dynamics of species populations and how these populations interact with the environment it is the study of how the population sizes of species change over time and space the term population ecology is often used interchangeably with population biology or population dynamics
+the development of population ecology owes much to demography and actuarial life tables population ecology is important in conservation biology especially in the development of population viability analysis  pva  which makes it possible to predict the long-term probability of a species persisting in a given habitat patch although population ecology is a subfield of biology it provides interesting problems for mathematicians and statisticians who work in population dynamics
+
+
+fundamentals
+the most fundamental law of population ecology is thomas malthus  exponential law of population growth
+this principle in population ecology provides the basis for formulating predictive theories and tests that follow 
+simplified population models usually start with four key variables  four demographic processes  including death birth immigration and emigration mathematical models used to calculate changes in population demographics and evolution hold the assumption  or null hypothesis  of no external influence models can be more mathematically complex where  several competing hypotheses are simultaneously confronted with the data  for example in a closed system where immigration and emigration does not take place the rate of change in the number of individuals in a population can be described as 
+where n is the total number of individuals in the population b is the raw number of births d is the raw number of deaths b and d are the per capita rates of birth and death respectively and r is the per capita average number of surviving offspring each individual has this formula can be read as the rate of change in the population  dn dt  is equal to births minus deaths  b - d 
+using these techniques malthus  population principle of growth was later transformed into a mathematical model known as the logistic equation 
+where n is the biomass density a is the maximum per-capita rate of change and k is the carrying capacity of the population the formula can be read as follows  the rate of change in the population  dn dt  is equal to growth  an  that is limited by carrying capacity  1-n k  from these basic mathematical principles the discipline of population ecology expands into a field of investigation that queries the demographics of real populations and tests these results against the statistical models the field of population ecology often uses data on life history and matrix algebra to develop projection matrices on fecundity and survivorship this information is used for managing wildlife stocks and setting harvest quotas 
+geometric populations
+the population model below can be manipulated to mathematically infer certain properties of geometric populations a population with a size that increases geometrically is a population where generations of reproduction do not overlap in each generation there is an effective population size denoted as ne which constitutes the number of individuals in the population that are able to reproduce and will reproduce in any reproductive generation in concern in the population model below it is assumed that n is the effective population size
+assumption 01  ne   n
+nt 1   nt   bt   it - dt - et
+assumption 02  there is no migration to or from the population  n 
+it   et   0
+nt 1   nt   bt - dt
+the raw birth and death rates are related to the per capita birth and death rates 
+bt   bt   nt
+dt   dt   nt
+bt   bt   nt
+dt   dt   nt
+therefore 
+nt 1   nt    bt   nt  -  dt   nt 
+assumption 03  bt and dt are constant  ie they don t change each generation 
+nt 1   nt    bnt  -  dnt 
+take the term nt out of the brackets
+nt 1   nt    b - d nt
+b - d   r
+nt 1   nt   rnt
+nt 1    nt   rnt 
+take the term nt out of the brackets again
+nt 1    1   r nt
+1   r    
+nt 1    nt
+therefore 
+nt 1    tnt
+doubling time of geometric populations
+the doubling time of a population is the time required for the population to grow to twice its size we can calculate the doubling time of a geometric population using the equation  nt 1    tnt by exploiting our knowledge of the fact that the population  n  is twice its size  2n  after the doubling time
+2ntd    td   nt 
+ td   2ntd   nt
+ td   2
+the doubling time can be found by taking logarithms for instance 
+td   log2      log2 2 
+log2 2    1
+td   log2      1
+td   1   log2   
+or 
+td   ln      ln 2 
+td   ln 2    ln   
+td   0.693   ln   
+therefore 
+td   1   log2      0.693   ln   
+half-life of geometric populations
+the half-life of a population is the time taken for the population to decline to half its size we can calculate the half-life of a geometric population using the equation  nt 1    tnt by exploiting our knowledge of the fact that the population  n  is half its size  0.5n  after a half-life
+0.5nt1 2    t1 2   nt 
+ t1 2   0.5nt1 2   nt
+ t1 2   0.5
+the half-life can be calculated by taking logarithms  see above 
+t1 2   1   log0.5      ln 0.5    ln   
+geometric  r  and finite     growth constants
+r   b - d
+nt 1   nt   rnt
+nt 1 - nt   rnt
+nt 1 - nt    n
+ n   rnt
+ n nt   r
+1   r    
+nt 1    nt
+    nt 1   nt
+mathematical relationship between geometric and exponential populations
+in geometric populations r and   represent growth constants  see 2 and 2.3  in exponential populations however the intrinsic growth rate also known as intrinsic rate of increase  r  is the relevant growth constant since generations of reproduction in a geometric population do not overlap  eg reproduce once a year  but do in an exponential population geometric and exponential populations are usually considered to be mutually exclusive however geometric constants and exponential constants share the mathematical relationship below
+the growth equation for exponential populations is
+nt   n0ert
+assumption  nt  of a geometric population    nt  of an exponential population 
+therefore 
+n0ert   n0 t
+n0 cancels on both sides
+n0ert   n0    t
+ert    t
+take the natural logarithms of the equation using natural logarithms instead of base 10 or base 2 logarithms simplifies the final equation as ln e    1
+rt   ln e    t   ln   
+rt   1   t   ln   
+rt   t   ln   
+t cancels on both sides
+rt   t   ln   
+the results 
+r   ln   
+and
+er    
+r k selection
+an important concept in population ecology is the r k selection theory the first variable is r  the intrinsic rate of natural increase in population size density independent  and the second variable is k  the carrying capacity of a population density dependent  an r-selected species  eg many kinds of insects such as aphids  is one that has high rates of fecundity low levels of parental investment in the young and high rates of mortality before individuals reach maturity evolution favors productivity in r-selected species in contrast a k-selected species  such as humans  has low rates of fecundity high levels of parental investment in the young and low rates of mortality as individuals mature evolution in k-selected species favors efficiency in the conversion of more resources into fewer offspring
+metapopulation
+populations are also studied and conceptualized through the  metapopulation  concept the metapopulation concept was introduced in 1969 
+metapopulation ecology is a simplified model of the landscape into patches of varying levels of quality patches are either occupied or they are not migrants moving among the patches are structured into metapopulations either as sources or sinks source patches are productive sites that generate a seasonal supply of migrants to other patch locations sink patches are unproductive sites that only receive migrants in metapopulation terminology there are emigrants  individuals that leave a patch  and immigrants  individuals that move into a patch  metapopulation models examine patch dynamics over time to answer questions about spatial and demographic ecology an important concept in metapopulation ecology is the rescue effect where small patches of lower quality  ie sinks  are maintained by a seasonal influx of new immigrants metapopulation structure evolves from year to year where some patches are sinks such as dry years and become sources when conditions are more favorable ecologists utilize a mixture of computer models and field studies to explain metapopulation structure
+history
+the older term autecology  from greek       auto  self         oikos  household   and       logos  knowledge   refers to roughly the same field of study as population ecology it derives from the division of ecology into autecology the study of individual species in relation to the environment and synecology the study of groups of organisms in relation to the environment or community ecology odum  1959 p 8  considered that synecology should be divided into population ecology community ecology and ecosystem ecology defining autecology as essentially  species ecology  however for some time biologists have recognized that the more significant level of organization of a species is a population because at this level the species gene pool is most coherent in fact odum regarded  autecology  as no longer a  present tendency  in ecology  ie an archaic term  although included  species ecology  studies emphasizing life history and behavior as adaptations to the environment of individual organisms or species as one of four subdivisions of ecology
+journals
+the first journal publication of the society of population ecology titled population ecology  originally called researches on population ecology  was released in 1952
+scientific articles on population ecology can also be found in the journal of animal ecology oikos and other journals
+see also
+references
+further reading
+external links

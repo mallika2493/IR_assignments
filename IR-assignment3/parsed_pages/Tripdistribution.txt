@@ -1,0 +1,450 @@
+trip distribution - wikipedia
+trip distribution  or destination choice or zonal interchange analysis  is the second component  after trip generation but before mode choice and route assignment  in the traditional four-step transportation forecasting model this step matches tripmakers  origins and destinations to develop a  trip table  a matrix that displays the number of trips going from each origin to each destination historically this component has been the least developed component of the transportation planning model
+where  t ij   trips from origin i to destination j note that the practical value of trips on the diagonal eg from zone 1 to zone 1 is zero since no intra-zonal trip occurs
+work trip distribution is the way that travel demand models understand how people take jobs there are trip distribution models for other  non-work  activities such as the choice of location for grocery shopping which follow the same structure
+
+
+history
+over the years modelers have used several different formulations of trip distribution the first was the fratar or growth model  which did not differentiate trips by purpose  this structure extrapolated a base year trip table to the future based on growth but took no account of changing spatial accessibility due to increased supply or changes in travel patterns and congestion  simple growth factor model furness model and detroit model are models developed at the same time period 
+the next models developed were the gravity model and the intervening opportunities model the most widely used formulation is still the gravity model
+while studying traffic in baltimore maryland alan voorhees developed a mathematical formula to predict traffic patterns based on land use this formula has been instrumental in the design of numerous transportation and public works projects around the world he wrote  a general theory of traffic movement   voorhees 1956  which applied the gravity model to trip distribution which translates trips generated in an area to a matrix that identifies the number of trips from each origin to each destination which can then be loaded onto the network
+evaluation of several model forms in the 1960s concluded that  the gravity model and intervening opportunity model proved of about equal reliability and utility in simulating the 1948 and 1955 trip distribution for washington dc   heanue and pyers 1966  the fratar model was shown to have weakness in areas experiencing land use changes as comparisons between the models showed that either could be calibrated equally well to match observed conditions because of computational ease gravity models became more widely spread than intervening opportunities models some theoretical problems with the intervening opportunities model were discussed by whitaker and west  1968  concerning its inability to account for all trips generated in a zone which makes it more difficult to calibrate although techniques for dealing with the limitations have been developed by ruiter  1967 
+with the development of logit and other discrete choice techniques new demographically disaggregate approaches to travel demand were attempted by including variables other than travel time in determining the probability of making a trip it is expected to have a better prediction of travel behavior the logit model and gravity model have been shown by wilson  1967  to be of essentially the same form as used in statistical mechanics the entropy maximization model the application of these models differs in concept in that the gravity model uses impedance by travel time perhaps stratified by socioeconomic variables in determining the probability of trip making while a discrete choice approach brings those variables inside the utility or impedance function discrete choice models require more information to estimate and more computational time
+ben-akiva and lerman  1985  have developed combination destination choice and mode choice models using a logit formulation for work and non-work trips because of computational intensity these formulations tended to aggregate traffic zones into larger districts or rings in estimation in current application some models including for instance the transportation planning model used in portland oregon use a logit formulation for destination choice allen  1984  used utilities from a logit based mode choice model in determining composite impedance for trip distribution however that approach using mode choice log-sums implies that destination choice depends on the same variables as mode choice levinson and kumar  1995  employ mode choice probabilities as a weighting factor and develop a specific impedance function or  f-curve  for each mode for work and non-work trip purposes
+mathematics
+at this point in the transportation planning process the information for zonal interchange analysis is organized in an origin-destination table on the left is listed trips produced in each zone along the top are listed the zones and for each zone we list its attraction the table is n x n where n   the number of zones
+each cell in our table is to contain the number of trips from zone i to zone j we do not have these within-cell numbers yet although we have the row and column totals with data organized this way our task is to fill in the cells for tables headed t   1 through say t   n
+actually from home interview travel survey data and attraction analysis we have the cell information for t   1 the data are a sample so we generalize the sample to the universe the techniques used for zonal interchange analysis explore the empirical rule that fits the t   1 data that rule is then used to generate cell data for t   2 t   3 t   4 etc to t   n
+the first technique developed to model zonal interchange involves a model such as this 
+where 
+zone i generates t i trips  how many will go to zone j  that depends on the attractiveness of j compared to the attractiveness of all places  attractiveness is tempered by the distance a zone is from zone i we compute the fraction comparing j to all places and multiply t  i by it
+the rule is often of a gravity form 
+where 
+but in the zonal interchange mode we use numbers related to trip origins  t  i  and trip destinations  t  j  rather than populations
+there are lots of model forms because we may use weights and special calibration parameters eg one could write say 
+or
+where 
+gravity model
+the gravity model illustrates the macroscopic relationships between places  say homes and workplaces  it has long been posited that the interaction between two locations declines with increasing  distance time and cost  between them but is positively associated with the amount of activity at each location  isard 1956  in analogy with physics reilly  1929  formulated reilly s law of retail gravitation and j q stewart  1948  formulated definitions of demographic gravitation force energy and potential now called accessibility  hansen 1959  the distance decay factor of 1 distance has been updated to a more comprehensive function of generalized cost which is not necessarily linear - a negative exponential tends to be the preferred form
+the gravity model has been corroborated many times as a basic underlying aggregate relationship  scott 1988 cervero 1989 levinson and kumar 1995  the rate of decline of the interaction  called alternatively the impedance or friction factor or the utility or propensity function  has to be empirically measured and varies by context
+limiting the usefulness of the gravity model is its aggregate nature though policy also operates at an aggregate level more accurate analyses will retain the most detailed level of information as long as possible while the gravity model is very successful in explaining the choice of a large number of individuals the choice of any given individual varies greatly from the predicted value as applied in an urban travel demand context the disutilities are primarily time distance and cost although discrete choice models with the application of more expansive utility expressions are sometimes used as is stratification by income or vehicle ownership
+mathematically the gravity model often takes the form 
+where
+it is doubly constrained in the sense that for any i the total number of trips from i predicted by the model always  mechanically for any parameter values  equals the real total number of trips from i similarly the total number of trips to j predicted by the model equals the real total number of trips to j for any j
+entropy analysis
+wilson  1970  gives another way to think about zonal interchange problem this section treats wilson s methodology to give a grasp of central ideas
+to start consider some trips where there are seven people in origin zones commuting to seven jobs in destination zones one configuration of such trips will be 
+where 0    1
+that configuration can appear in 1,260 ways we have calculated the number of ways that configuration of trips might have occurred and to explain the calculation let s recall those coin tossing experiments talked about so much in elementary statistics
+the number of ways a two-sided coin can come up is 
+
+
+
+
+2
+
+n
+
+
+
+
+  displaystyle 2  n  
+
+ where n is the number of times we toss the coin if we toss the coin once it can come up heads or tails 
+
+
+
+
+2
+
+1
+
+
+ 
+2
+
+
+  displaystyle 2  1  2 
+
+ if we toss it twice it can come up hh ht th or tt four ways and 
+
+
+
+
+2
+
+2
+
+
+ 
+4
+
+
+  displaystyle 2  2  4 
+
+ to ask the specific question about say four coins coming up all heads we calculate 
+
+
+
+4
+ 
+
+ 
+
+ 
+4
+ 
+0
+ 
+ 
+ 
+1
+
+
+  displaystyle 4   4 0   1 
+
+ two heads and two tails would be 
+
+
+
+4
+ 
+
+ 
+
+ 
+2
+ 
+2
+ 
+ 
+ 
+6
+
+
+  displaystyle 4   2 2   6 
+
+ we are solving the equation 
+an important point is that as n gets larger our distribution gets more and more peaked and it is more and more reasonable to think of a most likely state
+however the notion of most likely state comes not from this thinking  it comes from statistical mechanics a field well known to wilson and not so well known to transportation planners the result from statistical mechanics is that a descending series is most likely think about the way the energy from lights in the classroom is affecting the air in the classroom if the effect resulted in an ascending series many of the atoms and molecules would be affected a lot and a few would be affected a little the descending series would have many affected not at all or not much and only a few affected very much we could take a given level of energy and compute excitation levels in ascending and descending series using the formula above we would compute the ways particular series could occur and we would conclude that descending series dominate
+that is more-or-less boltzmann s law
+that is the particles at any particular excitation level j will be a negative exponential function of the particles in the ground state 
+
+
+
+
+p
+
+0
+
+
+
+
+  displaystyle p  0  
+
+ the excitation level 
+
+
+
+
+e
+
+j
+
+
+
+
+  displaystyle e  j  
+
+ and a parameter 
+
+
+
+ 
+
+
+  displaystyle  beta  
+
+ which is a function of the  average  energy available to the particles in the system
+the two paragraphs above have to do with ensemble methods of calculation developed by gibbs a topic well beyond the reach of these notes
+returning to the o-d matrix note that we have not used as much information as we would have from an o and d survey and from our earlier work on trip generation for the same travel pattern in the o-d matrix used before we would have row and column totals ie 
+consider the way the four folks might travel 4   2 1 1     12  consider three folks 3   0 2 1     3 all travel can be combined in 12 3   36 ways the possible configuration of trips is thus seen to be much constrained by the column and row totals
+we put this point together with the earlier work with our matrix and the notion of most likely state to say that we want to
+subject to
+where 
+and this is the problem that we have solved above
+wilson adds another consideration  he constrains the system to the amount of energy available  ie money  and we have the additional constraint
+where c is the quantity of resources available and 
+
+
+
+
+c
+
+i
+j
+
+
+
+
+  displaystyle c  ij  
+
+ is the travel cost from i to j
+the discussion thus far contains the central ideas in wilson s work but we are not yet to the place where the reader will recognize the model as it is formulated by wilson
+first writing the 
+
+
+
+ 
+
+
+  displaystyle  lambda  
+
+ function to be maximized using lagrangian multipliers we have 
+where 
+
+
+
+
+ 
+
+i
+
+
+
+
+ 
+
+j
+
+
+
+
+  displaystyle  lambda   i  lambda   j  
+
+ and 
+
+
+
+ 
+
+
+  displaystyle  beta  
+
+ are the lagrange multipliers 
+
+
+
+ 
+
+
+  displaystyle  beta  
+
+ having an energy sense
+second it is convenient to maximize the natural log  ln  rather than 
+
+
+
+w
+ 
+
+t
+
+i
+j
+
+
+ 
+
+
+  displaystyle w t  ij   
+
+ for then we may use stirling s approximation
+so
+third evaluating the maximum we have
+with solution
+finally substituting this value of 
+
+
+
+
+t
+
+i
+j
+
+
+
+
+  displaystyle t  ij  
+
+ back into our constraint equations we have 
+and taking the constant multiples outside of the summation sign
+let
+we have
+which says that the most probable distribution of trips has a gravity model form 
+
+
+
+
+t
+
+i
+j
+
+
+
+
+  displaystyle t  ij  
+
+ is proportional to trip origins and destinations the constants 
+
+
+
+
+a
+
+i
+
+
+
+
+  displaystyle a  i  
+
+ 
+
+
+
+
+b
+
+j
+
+
+
+
+  displaystyle b  j  
+
+ and 
+
+
+
+ 
+
+
+  displaystyle  beta  
+
+ ensure that constraints are met
+turning now to computation we have a large problem first we do not know the value of c which earlier on we said had to do with the money available it was a cost constraint consequently we have to set 
+
+
+
+ 
+
+
+  displaystyle  beta  
+
+ to different values and then find the best set of values for 
+
+
+
+
+a
+
+i
+
+
+
+
+  displaystyle a  i  
+
+ and 
+
+
+
+
+b
+
+j
+
+
+
+
+  displaystyle b  j  
+
+ we know what 
+
+
+
+ 
+
+
+  displaystyle  beta  
+
+ means   the greater the value of 
+
+
+
+ 
+
+
+  displaystyle  beta  
+
+ the less the cost of average distance traveled  compare 
+
+
+
+ 
+
+
+  displaystyle  beta  
+
+ in boltzmann s law noted earlier  second the values of 
+
+
+
+
+a
+
+i
+
+
+
+
+  displaystyle a  i  
+
+ and 
+
+
+
+
+b
+
+j
+
+
+
+
+  displaystyle b  j  
+
+ depend on each other so for each value of 
+
+
+
+ 
+
+
+  displaystyle  beta  
+
+ we must use an iterative solution there are computer programs to do this
+wilson s method has been applied to the lowry model
+issues
+congestion
+one of the key drawbacks to the application of many early models was the inability to take account of congested travel time on the road network in determining the probability of making a trip between two locations although wohl noted as early as 1963 research into the feedback mechanism or the  interdependencies among assigned or distributed volume travel time  or travel  resistance   and route or system capacity  this work has yet to be widely adopted with rigorous tests of convergence or with a so-called  equilibrium  or  combined  solution  boyce et al 1994  haney  1972  suggests internal assumptions about travel time used to develop demand should be consistent with the output travel times of the route assignment of that demand while small methodological inconsistencies are necessarily a problem for estimating base year conditions forecasting becomes even more tenuous without an understanding of the feedback between supply and demand initially heuristic methods were developed by irwin and von cube  as quoted in florian et al  1975    and others and later formal mathematical programming techniques were established by evans  1976 
+stability of travel times
+a key point in analyzing feedback is the finding in earlier research by levinson and kumar  1994  that commuting times have remained stable over the past thirty years in the washington metropolitan region despite significant changes in household income land use pattern family structure and labor force participation similar results have been found in the twin cities by barnes and davis  2000 
+the stability of travel times and distribution curves over the past three decades gives a good basis for the application of aggregate trip distribution models for relatively long term forecasting this is not to suggest that there exists a constant travel time budget
+see also
+footnotes
+references
+external links

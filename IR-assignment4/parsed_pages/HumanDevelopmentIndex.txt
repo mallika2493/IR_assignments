@@ -1,0 +1,275 @@
+human development index - wikipedia
+the human development index  hdi  is a composite statistic of life expectancy education and per capita income indicators which are used to rank countries into four tiers of human development a country scores higher hdi when the lifespan is higher the education level is higher the gdp per capita is higher the fertility rate is lower and the inflation rate is lower the hdi was developed by the pakistani economist mahbub ul haq working alongside indian economist amartya sen often framed in terms of whether people are able to  be  and  do  desirable things in their life and was published by the united nations development programme
+the 2010 human development report introduced an inequality-adjusted human development index  ihdi  while the simple hdi remains useful it stated that  the ihdi is the actual level of human development  accounting for inequality   and  the hdi can be viewed as an index of  potential  human development  or the maximum ihdi that could be achieved if there were no inequality  
+
+
+origins
+the origins of the hdi are found in the annual human development reports produced by the human development reports office of the united nations development programme  undp  these were devised and launched by pakistani economist mahbub ul haq in 1990 and had the explicit purpose  to shift the focus of development economics from national income accounting to people-centered policies  to produce the human development reports mahbub ul haq formed a group of development economists including paul streeten frances stewart gustav ranis keith griffin sudhir anand and meghnad desai working alongside nobel laureate amartya sen they worked on capabilities and functions that provided the underlying conceptual framework haq was sure that a simple composite measure of human development was needed in order to convince the public academics and politicians that they can and should evaluate development not only by economic advances but also improvements in human well-being sen initially opposed this idea but he was helped by haq in order to develop the index sen was worried that it was going to be difficult to capture the full complexity of human capabilities in a single index but haq requested him that only a single number would shift the immediate attention of politicians from economic to human well-being
+dimensions and calculation
+new method  2010 report onwards 
+published on 4 november 2010  and updated on 10 june 2011  the 2010 human development report  hdi  combines three dimensions 
+in its 2010 human development report the undp began using a new method of calculating the hdi the following three indices are used 
+1 life expectancy index  lei  
+
+
+
+ 
+
+
+
+
+
+le
+
+
+ 
+20
+
+
+85
+ 
+20
+
+
+
+
+
+  displaystyle    frac    textrm  le  -20  85-20   
+
+
+2 education index  ei  
+
+
+
+ 
+
+
+
+
+
+mysi
+
+
+ 
+
+
+eysi
+
+
+
+2
+
+
+
+
+  displaystyle    frac    textrm  mysi     textrm  eysi    2   
+
+
+3 income index  ii  
+
+
+
+ 
+
+
+
+ln
+ 
+ 
+
+
+gnipc
+
+
+ 
+ 
+ln
+ 
+ 
+100
+ 
+
+
+ln
+ 
+ 
+75
+
+000
+ 
+ 
+ln
+ 
+ 
+100
+ 
+
+
+
+
+
+  displaystyle    frac   ln   textrm  gnipc   - ln 100    ln 75,000 - ln 100    
+
+
+finally the hdi is the geometric mean of the previous three normalized indices 
+
+
+
+
+
+
+hdi
+
+
+ 
+
+
+
+
+
+lei
+
+
+ 
+
+
+ei
+
+
+ 
+
+
+ii
+
+
+
+
+3
+
+
+
+
+
+
+  displaystyle   textrm  hdi     sqrt   textrm  lei   cdot   textrm  ei   cdot   textrm  ii     
+
+
+le  life expectancy at birth
+mys  mean years of schooling  years that a person 25 years-of-age or older has spent in schools 
+eys  expected years of schooling  years of schooling for children under 18 years of age 
+gnipc  gross national income at purchasing power parity per capita
+old method  before 2010 report 
+the hdi combined three dimensions last used in its 2009 report 
+this methodology was used by the undp until their 2011 report
+the formula defining the hdi is promulgated by the united nations development programme  undp  in general to transform a raw variable say 
+
+
+
+x
+
+
+  displaystyle x 
+
+ into a unit-free index between 0 and 1  which allows different indices to be added together  the following formula is used 
+where 
+
+
+
+min
+
+ 
+x
+ 
+
+
+
+  displaystyle  min  left x right  
+
+ and 
+
+
+
+max
+
+ 
+x
+ 
+
+
+
+  displaystyle  max  left x right  
+
+ are the lowest and highest values the variable 
+
+
+
+x
+
+
+  displaystyle x 
+
+ can attain respectively
+the human development index  hdi  then represents the uniformly weighted sum with   contributed by each of the following factor indices 
+other organizations companies may include other factors such as infant mortality which produces a different hdi
+2015 human development report
+the 2015 human development report by the united nations development programme was released on december 14 2015 and calculates hdi values based on estimates for 2014 below is the list of the  very high human development  countries 
+2014 human development report
+the 2014 human development report by the united nations development programme was released on july 24 2014 and calculates hdi values based on estimates for 2013 below is the list of the  very high human development  countries 
+inequality-adjusted hdi
+the inequality-adjusted human development index  ihdi  is a  measure of the average level of human development of people in a society once inequality is taken into account 
+note  the green arrows    red arrows    and blue dashes    represent changes in rank the changes in rank are not relative to the hdi list above but are according to the source  p 168  calculated with the exclusion of countries which are missing ihdi data
+countries in the top quartile of hdi   very high human development  group  with a missing ihdi  new zealand singapore hong kong liechtenstein taiwan brunei qatar saudi arabia andorra united arab emirates bahrain cuba and kuwait
+countries not included
+some countries were not included for various reasons primarily due to the lack of necessary data the following united nations member states were not included in the 2014 report  north korea marshall islands monaco nauru san marino somalia india pakistan south sudan and tuvalu
+2013 human development report
+the 2013 human development report by the united nations development program was released on march 14 2013 and calculates hdi values based on estimates for 2012 below is the list of the  very high human development  countries 
+note  the green arrows    red arrows    and blue dashes    represent changes in rank when compared to the new 2012 data hdi for 2011   published in the 2012 report
+inequality-adjusted hdi
+the inequality-adjusted human development index  ihdi  is a  measure of the average level of human development of people in a society once inequality is taken into account 
+note  the green arrows    red arrows    and blue dashes    represent changes in rank the changes in rank are not relative to the hdi list above but are according to the source  p 152  calculated with the exclusion of countries which are missing ihdi data
+countries in the top quartile of hdi   very high human development  group  with a missing ihdi  new zealand chile japan hong kong singapore taiwan liechtenstein brunei andorra qatar barbados united arab emirates and seychelles
+2011 human development report
+the 2011 human development report was released on 2 november 2011 and calculated hdi values based on estimates for 2011 below is the list of the  very high human development  countries  equal to the top quartile  
+note  the green arrows    red arrows    and blue dashes    represent changes in rank when compared to the 2011 hdi data for 2010   published in the 2011 report  p 131 
+inequality-adjusted hdi
+below is a list of countries in the top quartile by inequality-adjusted human development index  ihdi  according to the report the ihdi is a  measure of the average level of human development of people in a society once inequality is taken into account 
+note  the green arrows    red arrows    and blue dashes    represent changes in rank when compared to the 2011 hdi list for countries listed in both rankings
+countries in the top quartile of hdi   very high human development  group  with a missing ihdi include  new zealand liechtenstein japan hong kong singapore taiwan united arab emirates andorra brunei malta qatar bahrain chile argentina and barbados
+countries not included
+some countries were not included for various reasons mainly the unavailability of certain crucial data the following united nations member states were not included in the 2011 report  north korea marshall islands monaco nauru san marino south sudan somalia and tuvalu
+2010 human development report
+the 2010 human development report by the united nations development program was released on november 4 2010 and calculates hdi values based on estimates for 2010 below is the list of the  very high human development  countries 
+note  the green arrows    red arrows    and blue dashes    represent changes in rank when compared to the 2009 hdi published in the 2010 report
+inequality-adjusted hdi
+the 2010 human development report was the first to calculate an inequality-adjusted human development index  ihdi  which factors in inequalities in the three basic dimensions of human development  income life expectancy and education  below is a list of countries in the top quartile by ihdi 
+note  the green arrows    red arrows    and blue dashes    represent changes in rank when compared to the 2010 hdi list for countries listed in both rankings
+countries in the top quartile of hdi   very high human development  group  with a missing ihdi include  new zealand liechtenstein japan hong kong singapore republic of china  taiwan  andorra united arab emirates malta brunei qatar bahrain and barbados
+countries not included
+some countries were not included for various reasons mainly the unavailability of certain crucial data the following united nations member states were not included in the 2010 report cuba lodged a formal protest at its lack of inclusion the undp explained that cuba had been excluded due to the lack of an  internationally reported figure for cuba s gross national income adjusted for purchasing power parity  all other indicators for cuba were available and reported by the undp but the lack of one indicator meant that no ranking could be attributed to the country the situation has been addressed and in later years cuba has ranked as a high human development country
+2009 human development report
+the 2009 human development report by the undp was released on october 5 2009 and covers the period up to 2007 it was titled  overcoming barriers  human mobility and development  the top countries by hdi were grouped in a new category called  very high human development  the report refers to these countries as developed countries they are 
+countries not included
+some countries were not included for various reasons such as being a non-un member or unable or unwilling to provide the necessary data at the time of publication besides the states with limited recognition the following states were also not included
+2008 statistical update
+a new index was released on december 18 2008 this so-called  statistical update  covered the period up to 2006 and was published without an accompanying human development report the update is relevant due to newly released estimates of purchasing power parities  ppp  implying substantial adjustments for many countries resulting in changes in hdi values and in many cases hdi ranks
+countries not included
+some countries were not included for various reasons such as being a non-un member unable or unwilling to provide the necessary data at the time of publication besides the states with limited recognition the following states were also not included
+2007 2008 human development report
+the human development report for 2007 2008 was launched in bras lia brazil on november 27 2007 its focus was on  fighting climate change  human solidarity in a divided world  most of the data used for the report are derived largely from 2005 or earlier thus indicating an hdi for 2005 not all un member states choose to or are able to provide the necessary statistics
+the report showed a small increase in world hdi in comparison with last year s report this rise was fueled by a general improvement in the developing world especially of the least developed countries group this marked improvement at the bottom was offset with a decrease in hdi of high income countries
+a hdi below 0.5 is considered to represent  low development  all 22 countries in that category are located in africa the highest-scoring sub-saharan countries gabon and south africa are ranked 119th and 121st respectively nine countries departed from this category this year and joined the  medium development  group
+a hdi of 0.8 or more is considered to represent  high development  this includes all developed countries such as those in north america western europe oceania and eastern asia as well as some developing countries in eastern europe central and south america southeast asia the caribbean and the oil-rich arabian peninsula seven countries were promoted to this category this year leaving the  medium development  group  albania belarus brazil libya macedonia russia and saudi arabia
+on the following table green arrows    represent an increase in ranking over the previous study while red arrows    represent a decrease in ranking they are followed by the number of spaces they moved blue dashes    represent a nation that did not move in the rankings since the previous study
+past top countries
+the list below displays the top-ranked country from each year of the human development index norway has been ranked the highest twelve times canada eight times followed by japan which has been ranked highest three times iceland has been ranked highest twice
+in each original report
+the year represents when the report was published in parentheses is the year for which the index was calculated
+criticism
+the human development index has been criticized on a number of grounds including alleged ideological biases towards egalitarianism and so-called  western models of development  failure to include any ecological considerations lack of consideration of technological development or contributions to the human civilization focusing exclusively on national performance and ranking lack of attention to development from a global perspective measurement error of the underlying statistics and on the undp s changes in formula which can lead to severe misclassification in the categorisation of  low   medium   high  or  very high  human development countries
+economists hendrik wolff howard chong and maximilian auffhammer discuss the hdi from the perspective of data error in the underlying health education and income statistics used to construct the hdi they identified three sources of data error which are due to  i  data updating  ii  formula revisions and  iii  thresholds to classify a country s development status and conclude that 11  21  and 34  of all countries can be interpreted as currently misclassified in the development bins due to the three sources of data error respectively the authors suggest that the united nations should discontinue the practice of classifying countries into development bins because - they claim - the cut-off values seem arbitrary can provide incentives for strategic behavior in reporting official statistics and have the potential to misguide politicians investors charity donors and the public who use the hdi at large in 2010 the undp reacted to the criticism and updated the thresholds to classify nations as low medium and high human development countries in a comment to the economist in early january 2011 the human development report office responded to a january 6 2011 article in the magazine which discusses the wolff et al paper the human development report office states that they undertook a systematic revision of the methods used for the calculation of the hdi and that the new methodology directly addresses the critique by wolff et al in that it generates a system for continuous updating of the human development categories whenever formula or data revisions take place
+geographical coverage
+the hdi has extended its geographical coverage  david hastings of the united nations economic and social commission for asia and the pacific published a report geographically extending the hdi to 230  economies whereas the undp hdi for 2009 enumerates 182 economies and coverage for the 2010 hdi dropped to 169 countries
+country region specific hdi lists
+see also
+notes and references
+external links

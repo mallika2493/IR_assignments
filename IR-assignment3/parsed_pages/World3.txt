@@ -1,0 +1,26 @@
+world3 - wikipedia
+the world3 model is a system dynamics model for computer simulation of interactions between population industrial growth food production and limits in the ecosystems of the earth it was originally produced and used by a club of rome study that produced the model and the book the limits to growth the principal creators of the model were donella meadows dennis meadows and j rgen randers
+the model was documented in the book dynamics of growth in a finite world it added new features to jay w forrester s world2 model since world3 was originally created it has had minor tweaks to get to the world3 91 model used in the book beyond the limits later improved to get the world3 2000 model distributed by the institute for policy and social science research and finally the world3 2004 model used in the book limits to growth  the 30 year update  synopsis 
+world3 is one of several global models that have been generated throughout the world  mesarovic pestel model bariloche model moira model saru model fugi model  and is probably the model that generated the spark for all later models
+
+
+model
+the model consisted of several interacting parts each of these dealt with a different system of the model the main systems were
+agricultural system
+the simplest useful view of this system is that land and fertilizer are used for farming and more of either will produce more food in the context of the model since land is finite and industrial output required to produce fertilizer and other agricultural inputs can not keep up with demand there necessarily will be a food collapse at some point in the future
+nonrenewable resources system
+the nonrenewable resource system starts with the assumption that the total amount of resources available is finite  about 110 times the consumption at 1990s rates for the world3 91 model  these resources can be extracted and then used for various purposes in other systems in the model an important assumption that was made is that as the nonrenewable resources are extracted the remaining resources are increasingly difficult to extract thus diverting more and more industrial output to resource extraction
+reference run predictions
+the dynamics of growth in a finite world book provides multiple different scenarios the  reference run  is the one that the authors state  represent the most likely behavior mode of the system if the process of industrialization in the future proceeds in a way very similar to its progress in the past and if technologies and value changes that have already been institutionalized continue to evolve  in this scenario in 2000 the world population reaches 6 billion and then goes on to peak at 7 billion in 2030 after that population declines because of an increased death rate in 2015 both industrial output per capita and food per capita peak at 375 dollars person  1970s dollars  and 500 vegetable-equivalent kilograms person the persistent pollution peaks in the year 2035 at 11 times 1970s levels
+criticism of the model
+there has been quite a bit of criticism of the world3 model some has come from the model creators themselves some has come from economists and some has come from other places
+one of the major criticisms of the model is that it simply has not reflected the reality of the world since the 1970s when the model was first published at least one study however claims that  30 years of historical data compare favorably with key features of a business-as-usual scenario called the  standard run  scenario  produced by the world3 model
+in the book groping in the dark  the first decade of global modelling donella meadows states 
+a detailed criticism of the model is in the book models of doom  a critique of the limits to growth
+both julian lincoln simon and bj rn lomborg have discussed the assumptions that the model makes the first assumption that they criticize is the assumption of finite natural resources they also state that the limits on agriculture are invalid since they are based on the limit of the amount of land
+vaclav smil disagreed with the combination of physically different processes into simplified equations 
+he does however consider continuous growth in world gdp a problem 
+others have put forth more interesting criticisms such as henshaw king   zarnikau who in a 2011 paper systems energy assessment  point out that the methodology of such models may be valid empirically as a world model but might not then also be useful for decision making the impact data being used is generally collected according to where the impacts are recorded as occurring following standard i o material processes accounting methods it s not reorganized according to who pays for or profits from the impacts so who is actually responsible for economic impacts is never determined
+the authors of the book surviving 1,000 centuries consider some of the predictions too pessimistic but some of the overall message correct
+references
+external links and references

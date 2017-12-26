@@ -1,0 +1,25 @@
+ecological engineering - wikipedia
+ecological engineering is an emerging study of integrating ecology and engineering concerned with the design monitoring and construction of ecosystems according to mitsch  1996   the design of sustainable ecosystems intends to integrate human society with its natural environment for the benefit of both 
+
+
+overview
+ecological engineering emerged as a new idea in the early 1960s but its definition has taken several decades to refine its implementation is still undergoing adjustment and its broader recognition as a new paradigm is relatively recent ecological engineering was introduced by howard odum and others as utilizing natural energy sources as the predominant input to manipulate and control environmental systems
+mitsch and jorgensen wrote that ecological engineering is designing societal services such that they benefit society and nature and later noted the design should be systems based sustainable and integrate society with its natural environment odum emphasized that self-organizational properties were a central feature to ecological engineering
+mitsch and j rgensen were the first to define ecological engineering and provide ecological engineering principles later they refined the definition and increased the number of principles they defined and characterized ecological engineering in a 1989 book and clarified it further in their 2004 book  see literature  they suggest the goal of ecological engineering is 
+they summarized the five concepts key to ecological engineering as 
+bergen et al defined ecological engineering as 
+barrett  1999  offers a more literal definition of the term   the design construction operation and management  that is engineering  of landscape aquatic structures and associated plant and animal communities  that is ecosystems  to benefit humanity and often nature  barrett continues   other terms with equivalent or similar meanings include ecotechnology and two terms most often used in the erosion control field  soil bioengineering and biotechnical engineering however ecoengineering should not be confused with  biotechnology  when describing genetic engineering at the cellular level or  bioengineering  meaning construction of artificial body parts 
+this engineering discipline combines basic and applied science from engineering ecology economics and natural sciences for the restoration and construction of aquatic and terrestrial ecosystems the field of ecological engineering is increasing in breadth and depth as more opportunities to design and use ecosystems as interfaces between technology and environment are explored
+implementation of ecological engineering has focused on the creation or restoration of ecosystems from degraded wetlands to multi-celled tubs and greenhouses that integrate microbial fish and plant services to process human wastewater into products such as fertilizers flowers and drinking water
+potential applications of ecological engineering in cities have included the field of landscape architecture urban planning and urban horticulture which can be synthesized into urban stormwater management potential applications of ecological engineering in rural landscapes have included wetland treatment and community reforestation through traditional ecological knowledge
+recent lifestyle and habitat planning examples include the permaculture movement
+design guidelines
+ecological engineering design will follow a cycle similar to engineering design - problem formulation  goal  problem analysis  constraints  alternative solutions search decision among alternatives and specification of a complete solution elements that distinguish ecological engineering design are elaborated by many authors however a singular approach is still absent typically the design goal involves protecting an at-risk ecosystem restoring a degraded ecosystem or creating a new sustainable ecosystem to satisfy needs of nature and society
+a temporal framework is provided by matlock et al stating the design solutions are considered in ecological time in selecting between alternatives the design should incorporate ecological economics in design evaluation and acknowledge a guiding value system which promotes biological conservation
+academic curriculum
+an academic curriculum has been proposed for ecological engineering and institutions around the world are starting programs key elements of this curriculum are 
+complementing this set of courses are prerequisites courses in physical biological and chemical subject areas and integrated design experiences according to matlock et al the design should identify constraints characterize solutions in ecological time and incorporate ecological economics in design evaluation economics of ecological engineering has been demonstrated using energy principles for a wetland and using nutrient valuation for a dairy farm 
+literature
+see also
+references
+external links
